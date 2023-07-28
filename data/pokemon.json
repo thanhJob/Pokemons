@@ -1,0 +1,50 @@
+[
+  {
+    "id": 4,
+    "name": "Arceus",
+    "description": " là Pokémon huyền ảo thuần hệ Thuong Thường được giới thiệu trong Thế hệ IV. Arceus không tiến hóa thành Pokémon nào và cũng không là dạng tiến hóa của Pokémon nào. Tính từ Thế hệ VI, Arceus có đến 18 hình thái khác nhau.",
+    "images": "http://wallpapercave.com/wp/G18xerR.png",
+    "evolutionName": "không có",
+    "evolutionImage": "Không có"
+  },
+  {
+    "id": 2,
+    "name": "Charizard",
+    "description": "Dù đã trải qua hơn 20 năm tiến hóa nhưng Charizard vẫn luôn nằm trong danh sách các Pokemon hệ Lửa được yêu thích nhất của các game thủ. Đây là Pokemon hệ lửa của Satoshi có khả năng sát thương cao nhất mà khó đối thủ nào có thể chống lại được.",
+    "images": "https://cdn.popsww.com/blog-kids/sites/3/2021/12/Charizard.jpg",
+    "evolutionName": "Charizard Mega",
+    "evolutionImage": "https://tse4.mm.bing.net/th?id=OIP.8HHm6juxULzquKpWuLtnDQHaEl&pid=Api&P=0&h=180"
+  },
+  {
+    "id": 6,
+    "name": "Dialga",
+    "description": "Truyền thuyết kể lại về loài Pokémon này rằng, thời gian bắt đầu chảy trôi từ lúc Dialga được sinh ra. Sở hữu quyền năng khống chế thời gian, Dialga là một vị thần xuất hiện trong thần thoại vùng Sinnoh.",
+    "images": "https://wallpaper.dog/large/5542301.png",
+    "evolutionName": "Dialga hình thái Nguyên bản",
+    "evolutionImage": "https://i.pinimg.com/originals/b3/b5/78/b3b578e1697a3c2ca96772b20f2cc13f.png"
+  },
+  {
+    "id": 3,
+    "name": "Kamex",
+    "description": "Kamex bắn nước từ hai khẩu súng nhô ra ở mai. Với độ chuẩn xác cực cao, những phát đạn nước có thể nhắm trúng lon rỗng cách xa 50 mét.",
+    "images": "https://cdn.popsww.com/blog-kids/sites/3/2021/12/Blastoise.jpg",
+    "evolutionName": "Kamex Mega",
+    "evolutionImage": "https://tse2.mm.bing.net/th?id=OIP.HTDe78foNiYN8iTRhiz9VgHaHa&pid=Api&P=0&h=180"
+  },
+  {
+    "id": 5,
+    "name": "Palkia",
+    "description": "Theo những gì được kể trong thần thoại, Palkia sống trong một lỗ hổng không gian song song với thế giới của chúng ta.Sở hữu quyền năng bẻ cong các vùng không gian, Palkia được mô tả là một vị thần trong thần thoại vùng Sinnoh.",
+    "images": "https://orig00.deviantart.net/d9aa/f/2016/094/4/5/palkia_by_nightfuryshadows-d9xqrjp.png",
+    "evolutionName": "Palkia Hình Thái Nguyên Bản",
+    "evolutionImage": "http://img02.deviantart.net/0ebb/i/2014/248/b/8/mega_primal_palkia_by_hyshirey-d7y0b4k.png"
+  },
+  {
+    "id": 1,
+    "name": "Pikachu",
+    "description": "Pokemon Pikachu thuộc hệ điện, sống thành đàn trong các khu rừng. Chúng tích trữ điện bằng hai đốm trên má và mặc dù hai điểm đó rất nhỏ nhưng chúng có thể lưu trữ một lượng điện năng rất lớn.",
+    "images": "https://cdn.popsww.com/blog-kids/sites/3/2022/05/thong-tin-co-ban-1024x576.jpg",
+    "evolutionName": "Raichu",
+    "evolutionImage": "https://tse3.mm.bing.net/th?id=OIP.-exjxjOr8qSeOPRdz3OnhgHaF7&pid=Api&P=0&h=180"
+  }
+]
