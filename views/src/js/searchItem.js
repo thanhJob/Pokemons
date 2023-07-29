@@ -24,7 +24,11 @@ async function getData() {
         alt=""
       />
       <p class="pokemon-h2">${el.name}</p>
-      <form action="/:${el.id}" method="GET" class="pokemon-btn">
+      <form action="/views/detail.html" method="GET" class="pokemon-btn">
+        <input
+          name = "id"
+          value = "${el.id}" 
+        />
         <button>Xem thêm</button>
       </form>
       `;
