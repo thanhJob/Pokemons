@@ -7,7 +7,7 @@ start();
 // GET data
 async function getData() {
   try {
-    const responseAPI = await fetch("http://localhost:3000/pokemons");
+    const responseAPI = await fetch("http://27.118.27.187/api/pokemons");
     // console.log(responseAPI);
     const response = await responseAPI.json();
     const data = response.pokemons;
