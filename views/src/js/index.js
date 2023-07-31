@@ -1,13 +1,35 @@
-getData();
+const pokemonImg = document.getElementById("pokemons");
 
+function start() {
+  getData();
+}
+start();
+// GET data
 async function getData() {
   try {
-    const responseAPI = await fetch("http://localhost:3000/pokemons", {
-      mode: "no-cors",
+    const responseAPI = await fetch("http://localhost:3000/pokemons");
+    // console.log(responseAPI);
+    const response = await responseAPI.json();
+    const data = response.pokemons;
+    data.forEach((el) => {
+      let divPokemon = document.createElement("div");
+      divPokemon.className += "pokemon-image";
+      divPokemon.innerHTML = `
+      <img
+        src="${el.images}"
+        alt=""
+      />
+      <p class="pokemon-h2">${el.name}</p>
+      <form action="/views/detail.html" method="GET" class="pokemon-btn">
+        <input
+          name = "id"
+          value = "${el.id}"
+        />
+        <button >Xem thêm</button>
+      </form>
+      `;
+      pokemonImg.appendChild(divPokemon);
     });
-    const data = await responseAPI.json();
-    const pokemons = data.data;
-    console.log(pokemons);
   } catch (error) {
     console.log(`Err: ${error}`);
   }

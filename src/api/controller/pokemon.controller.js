@@ -27,7 +27,6 @@ exports.getItemsById = (req, res, next) => {
   });
   if (!pokemon) return next("Not found data!", 404);
   res.status(200).json({
-    status: "Successfully!",
     pokemon,
   });
 };

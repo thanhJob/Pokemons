@@ -47,13 +47,18 @@
         font-size: 18px;
       }
 
-      .pokemon-image {
+      #pokemons {
+        display: inline-grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      #pokemons .pokemon-image {
         display: block;
         grid-template-columns: repeat(3, minmax(0, 1fr));
         background-color: #1b143c;
         grid-gap: 40px;
         max-width: 600px;
-        height: 55%;
+        height: 95%;
         margin-inline: 23px;
         float: left;
         border: solid 1px #ccc;
@@ -61,11 +66,11 @@
         margin-bottom: 30px;
       }
 
-      .pokemon-image img {
-        max-width: 450px;
+      #pokemons .pokemon-image img {
+        width: 100%;
         border-radius: 20px;
       }
-      .pokemon-image .pokemon-h2 {
+      #pokemons .pokemon-image .pokemon-h2 {
         display: block;
         color: #000;
         text-decoration: none;
@@ -74,7 +79,7 @@
         color: #fff;
       }
 
-      .pokemon-image .pokemon-btn {
+      #pokemons .pokemon-image .pokemon-btn {
         width: 140px;
         height: 30px;
         margin-left: auto;
@@ -85,13 +90,19 @@
         margin-bottom: 10px;
       }
 
-      .pokemon-image .pokemon-btn button {
+      #pokemons .pokemon-image .pokemon-btn button {
         background-color: cornflowerblue;
         border: none;
         font-size: 16px;
         padding-top: 5px;
         padding-bottom: 5px;
         color: #fff;
+      }
+
+      .pokemon-btn input {
+        width: 0;
+        background-color: cornflowerblue;
+        border: none;
       }
 
       .pokemon-btn button a {
@@ -122,9 +133,10 @@
     />
 
     <div class="container-pokemons">
-      <form action="/search" method="GET">
+      <form action="/views/search.html" method="GET">
         <input
           type="text"
+          name="name"
           class="input-pokemon"
           placeholder="Nhập tên pokemon bạn muốn tìm..."
         />
@@ -132,17 +144,7 @@
       </form>
     </div>
 
-    <div class="pokemon-image">
-      <img
-        src="https://cdn.popsww.com/blog-kids/sites/3/2021/12/Charizard.jpg"
-        alt=""
-      />
-      <p class="pokemon-h2">Pokemon</p>
-      <form action="/:id" method="GET" class="pokemon-btn">
-        <button>Xem thêm</button>
-      </form>
-    </div>
-
+    <div id="pokemons"></div>
     <script src="./src/js/index.js"></script>
   </body>
 </html>
