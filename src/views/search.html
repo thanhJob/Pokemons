@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        max-width: 100%;
+        height: auto;
+        background: url("https://img5.thuthuatphanmem.vn/uploads/2021/07/16/hinh-anh-vu-tru-dep_090539049.jpg")
+          top center / cover no-repeat;
+      }
+      * {
+        text-align: center;
+      }
+
+      .logo-pokemon {
+        max-width: 300px;
+        margin-bottom: 16px;
+      }
+      .logo-pokemon2 {
+        max-width: 110px;
+        margin-bottom: 16px;
+      }
+      .container-pokemons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+      }
+      .input-pokemon {
+        position: relative;
+        width: 500px;
+        height: 40px;
+        border-radius: 20px;
+        margin-right: 5px;
+      }
+      .btn-pokemon {
+        position: absolute;
+        height: 15px;
+        width: 130px;
+        height: 40px;
+        border-radius: 20px;
+        margin-left: 5px;
+        background-color: cornflowerblue;
+        color: #fff;
+        font-size: 18px;
+      }
+
+      #pokemons {
+        display: inline-grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      #pokemons .pokemon-image {
+        display: block;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        background-color: #1b143c;
+        grid-gap: 40px;
+        max-width: 600px;
+        height: 95%;
+        margin-inline: 23px;
+        float: left;
+        border: solid 1px #ccc;
+        border-radius: 20px;
+        margin-bottom: 30px;
+      }
+
+      #pokemons .pokemon-image img {
+        width: 100%;
+        border-radius: 20px;
+      }
+      #pokemons .pokemon-image .pokemon-h2 {
+        display: block;
+        color: #000;
+        text-decoration: none;
+        margin-top: 5px;
+        font-size: 25px;
+        color: #fff;
+      }
+
+      #pokemons .pokemon-image .pokemon-btn {
+        width: 140px;
+        height: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: cornflowerblue;
+        border: 1px solid cornflowerblue;
+        border-radius: 20px;
+        margin-bottom: 10px;
+      }
+
+      #pokemons .pokemon-image .pokemon-btn button {
+        background-color: cornflowerblue;
+        border: none;
+        font-size: 16px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        color: #fff;
+      }
+
+      .pokemon-btn input {
+        width: 0;
+        background-color: cornflowerblue;
+        border: none;
+      }
+
+      .pokemon-btn button a {
+        color: #fff;
+        text-decoration: none;
+      }
+
+      .pokemon-btn button :hover a {
+        cursor: pointer;
+      }
+
+      .pokemon-btn button :hover a {
+        cursor: pointer;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <img
+      src="http://pluspng.com/img-png/pokemon-logo-png-pokemon-logo-png-2000.png"
+      alt=""
+      class="logo-pokemon"
+    />
+    <img
+      src="https://webstockreview.net/images/pokeball-clipart-logo-pokemon-12.png"
+      alt=""
+      class="logo-pokemon2"
+    />
+
+    <div class="container-pokemons">
+      <form action="../views/search.html" method="GET">
+        <input
+          type="text"
+          name="name"
+          class="input-pokemon"
+          placeholder="Nhập tên pokemon bạn muốn tìm..."
+        />
+        <button class="btn-pokemon" value="Tìm Kiếm">Tìm Kiếm</button>
+      </form>
+    </div>
+
+    <div id="pokemons"></div>
+    <script src="./src/js/searchItem.js"></script>
+  </body>
+</html>
