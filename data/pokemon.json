@@ -46,5 +46,29 @@
     "images": "https://cdn.popsww.com/blog-kids/sites/3/2022/05/thong-tin-co-ban-1024x576.jpg",
     "evolutionName": "Raichu",
     "evolutionImage": "https://tse3.mm.bing.net/th?id=OIP.-exjxjOr8qSeOPRdz3OnhgHaF7&pid=Api&P=0&h=180"
+  },
+  {
+    "id": 7,
+    "name": "Rayquaza",
+    "description": "Rayquaza được cho là đã sống hàng trăm triệu năm. Truyền thuyết kể rằng, chính thần đã ra tay chấm dứt cuộc đại chiến giữa Kaioga và Groudon. Rayquaza không ngừng bay khắp tầng ôzôn và ăn thiên thạch để sống. Các thiên thạch mà thần đã hấp thụ cung cấp nguồn năng lượng cần thiết cho quá trình Tiến hóa Mega.",
+    "images": "https://thegamehaus.com/wp-content/uploads/2019/07/Mega_Rayquaza_anime.png",
+    "evolutionName": "Rayquaza Mega",
+    "evolutionImage": "http://wallpapercave.com/wp/wp1860006.png"
+  },
+  {
+    "id": 8,
+    "name": "Kaioga",
+    "description": "Nhờ quá trình Hồi quy Nguyên thủy và nguồn năng lượng tự nhiên tối thượng, Kaioga đã trở lại hình thái thật sự của mình. Thần triệu hồi bão tố và khiến mực nước biển dâng cao. Loài Pokémon này được xem là hiện thân biển cả. Truyền thuyết kể rằng, thần từng giao chiến liên miên với Groudon, hòng đoạt lấy nguồn năng lượng tự nhiên.",
+    "images": "https://archives.bulbagarden.net/media/upload/6/6f/Primal_Kyogre_anime.png",
+    "evolutionName": "Kaioga Nguyên Thủy",
+    "evolutionImage": "https://vn.portal-pokemon.com/play/resources/pokedex/img/pm/3bee9ded3d31370fc50dd9fe8d258135c038917f.png"
+  },
+  {
+    "id": 9,
+    "name": "Groudon",
+    "description": "Groudon được xem là hiện thân của đất liền. Truyền thuyết kể rằng, thần từng giao chiến liên miên với Kaioga, hòng đoạt lấy nguồn năng lượng tự nhiên. Nhờ quá trình Hồi quy Nguyên thủy và nguồn năng lượng tự nhiên tối thượng, Groudon đã trở lại hình thái thật sự của mình. Thần triệu hồi mắc ma phun trào và mở rộng đất đai.",
+    "images": "https://3.bp.blogspot.com/-nVR5QUOGr7k/WXmohHGi3AI/AAAAAAAAE60/cdELwx1HwXUd7ybtvtlw1b-1nbX3tb7WQCLcBGAs/s1600/1431407437582.jpg",
+    "evolutionName": "Groudon Nguyên Thủy",
+    "evolutionImage": "https://vn.portal-pokemon.com/play/resources/pokedex/img/pm/e654b96590bc96f39d460eb70d394c54c135ec1e.png"
   }
 ]
